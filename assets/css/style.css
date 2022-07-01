@@ -137,9 +137,14 @@ h2, h3, h4, h5, h6 {
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #F6CC03;
+.navbar a:hover, .navbar .active:focus, .navbar li:hover > a {
+  color: #858282;
 }
+
+.navbar .active{
+  color:rgb(107, 107, 107) ;
+}
+
 .navbar .getstarted, .navbar .getstarted:focus {
   background: #F6CC03;
   color: #fff;
@@ -340,12 +345,13 @@ h2, h3, h4, h5, h6 {
   padding: 8px 24px 10px 46px;
   border-radius: 3px;
   transition: 0.5s;
-  color: #fff;
+  color: rgb(0, 0, 0);
   background: #F6CC03;
   position: relative;
 }
 #hero .download-btn:hover {
-  background: #F6CC03;
+  background: #fefefe;
+  /* color: white; */
 }
 #hero .download-btn i {
   font-size: 20px;
