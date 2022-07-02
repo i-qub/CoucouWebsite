@@ -321,7 +321,7 @@ h2, h3, h4, h5, h6 {
   width: 250%;
   height: 200%;
   z-index: -1;
-  background-color: black;
+  background-color: #847d58;
   transform: skewY(135deg);
 }
 #hero h1 {
