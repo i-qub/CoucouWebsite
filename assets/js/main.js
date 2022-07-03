@@ -241,7 +241,7 @@
 })()
 
 window.addEventListener("load", () => {
-  const loader = document.querySelector(".pre-loader");
+  const loader = document.querySelector(".pre-loader","features");
 
   loader.classList.add("pre-loader--hidden");
 
