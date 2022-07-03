@@ -128,7 +128,9 @@ h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
-  color: #F6CC03;
+  font-weight: 500;
+
+  color: #000000;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -138,7 +140,7 @@ h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active:focus, .navbar li:hover > a {
-  color: #858282;
+  color: #c3c3c3;
 }
 
 .navbar .active{
@@ -146,17 +148,17 @@ h2, h3, h4, h5, h6 {
 }
 
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #F6CC03;
-  color: #fff;
+  background: #000000;
+  color: rgb(255, 255, 255);
   padding: 12px 25px;
   margin-left: 30px;
-  color: #fff;
   line-height: 1;
   border-radius: 50px;
+  font-weight: 500;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  background: #f6ce0352;
-  color: #fff;
+  background: #F6CC03;
+  color: rgb(0, 0, 0);
 }
 .navbar .dropdown ul {
   display: block;
@@ -321,7 +323,7 @@ h2, h3, h4, h5, h6 {
   width: 250%;
   height: 200%;
   z-index: -1;
-  background-color: #847d58;
+  background-color: #F6CC03;
   transform: skewY(135deg);
 }
 #hero h1 {
@@ -329,11 +331,11 @@ h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 500;
   line-height: 56px;
-  color: #F6CC03;
+  color: #000000;
   font-family: "Poppins", sans-serif;
 }
 #hero h2 {
-  color: #F6CC03;
+  color: #000000;
   margin-bottom: 50px;
   font-size: 20px;
 }
@@ -345,13 +347,13 @@ h2, h3, h4, h5, h6 {
   padding: 8px 24px 10px 46px;
   border-radius: 3px;
   transition: 0.5s;
-  color: rgb(0, 0, 0);
-  background: #F6CC03;
+  color: rgb(255, 255, 255);
+  background: #000000;
   position: relative;
 }
 #hero .download-btn:hover {
   background: #fefefe;
-  /* color: white; */
+  color: black;
 }
 #hero .download-btn i {
   font-size: 20px;
