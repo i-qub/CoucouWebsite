@@ -1202,8 +1202,6 @@ section {
 .pre-loader{
   left: 0;
   top: 0;
-  height: 100%;
-  width:100%;
   z-index: 1;
   position: absolute;
   padding-top: 300px;
@@ -1212,7 +1210,7 @@ section {
   padding-left: 600px;
   justify-self: center;
   background-color: #ffffff;
-  transition: opacity 0.75s, visibility 0.75s;
+  transition: opacity 3s, visibility 3s;
 }
 .pre-loader--hidden{
   opacity: 0;
