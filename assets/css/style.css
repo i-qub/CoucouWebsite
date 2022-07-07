@@ -371,6 +371,14 @@ h2, h3, h4, h5, h6 {
 #hero .download-btn + .download-btn {
   margin-left: 20px;
 }
+/* 
+#hero .heading{
+  background-image: url('/assets/img/favicon.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-blend-mode:lighten;
+  
+} */
 @media (max-width: 991px) {
   #hero {
     text-align: center;
