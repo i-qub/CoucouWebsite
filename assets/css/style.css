@@ -371,14 +371,12 @@ h2, h3, h4, h5, h6 {
 #hero .download-btn + .download-btn {
   margin-left: 20px;
 }
-/* 
 #hero .heading{
-  background-image: url('/assets/img/favicon.png');
-  background-size:contain;
-  background-repeat: no-repeat;
-  background-blend-mode:lighten;
-  
-} */
+  top:100px; 
+  left:150px;
+  position:absolute; 
+  opacity:0.1;
+}
 @media (max-width: 991px) {
   #hero {
     text-align: center;
@@ -399,6 +397,9 @@ h2, h3, h4, h5, h6 {
     /* padding-right: 200px;*/
     padding-left: 440px; 
     background-color: #ffffff;
+  }
+  #hero .heading{
+    left: 100px;
   }
 }
 @media (max-width: 768px) {
@@ -435,6 +436,10 @@ h2, h3, h4, h5, h6 {
     padding-left: 130px;
     background-color: #ffffff;
   }
+  #hero .heading{
+    left: -50px;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -845,6 +850,9 @@ section {
   .faq .accordion-list {
     padding: 0;
   }
+  /* #hero .heading{
+    left: -5px;
+  } */
 }
 
 /*--------------------------------------------------------------
