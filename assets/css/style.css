@@ -599,9 +599,12 @@ section {
 }
 .gallery .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #F6CC03;
+  transform: scale(1.5);
 }
 .gallery .swiper-slide-active {
   text-align: center;
+  box-shadow: 2px 4px 16px rgb(141, 141, 141);
+
 }
 
 @media (min-width: 992px) {
