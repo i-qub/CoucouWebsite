@@ -510,6 +510,38 @@ section {
     display: inline-block;
   }
 }
+/*--------------------------------------------------------------
+# About us
+--------------------------------------------------------------*/
+
+#AboutUs .bg-about-1{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-top: -400px;
+  margin-left: 1000px;
+  border-radius: 50%;
+  z-index: -2;
+  content: "";
+  background: #F6CC03 ;
+  overflow:hidden ;
+  /* filter: blur(30px); */
+}
+#AboutUs .bg-about-2{
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  margin-top: -400px;
+  margin-left: 850px;
+  border-radius: 50%;
+  z-index: -1;
+  content: "";
+  overflow:hidden ;
+
+  background: #f6ce038e ;
+  /* filter: blur(30px); */
+  transform: skewY(135deg);
+}
 
 /*--------------------------------------------------------------
 # App Features
