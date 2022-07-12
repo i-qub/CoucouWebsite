@@ -516,15 +516,7 @@ section {
 
 #AboutUs .bg-about-1{
   position: absolute;
-  width: 200px;
-  height: 200px;
-  margin-top: -400px;
-  margin-left: 1000px;
-  border-radius: 50%;
   z-index: -2;
-  content: "";
-  background: #F6CC03 ;
-  overflow:hidden ;
   /* filter: blur(30px); */
 }
 #AboutUs .bg-about-2{
