@@ -514,26 +514,11 @@ section {
 # About us
 --------------------------------------------------------------*/
 
-#AboutUs .bg-about-1{
+.bg-about-1{
   position: absolute;
   z-index: -2;
-  /* filter: blur(30px); */
 }
-#AboutUs .bg-about-2{
-  position: absolute;
-  width: 500px;
-  height: 200px;
-  margin-top: -400px;
-  margin-left: 850px;
-  border-radius: 50%;
-  z-index: -1;
-  content: "";
-  overflow:hidden ;
 
-  background: #f6ce038e ;
-  /* filter: blur(30px); */
-  transform: skewY(135deg);
-}
 
 /*--------------------------------------------------------------
 # App Features
